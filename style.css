@@ -1,0 +1,31 @@
+body {
+    background-image:linear-gradient(to right, #f4ecd6, #c6ffdd, #94bbe9); 
+}
+
+.container {
+    width:95%;
+    height:100vh;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.counter {
+    border: 5px solid black;
+    width: 600px;
+    height: 350px;
+    margin:auto;
+    padding:25px;
+    text-align: center;
+    background-color:#feffea;
+    border-radius:5px; /*round edges*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#count {
+    font-size:7rem;
+}
